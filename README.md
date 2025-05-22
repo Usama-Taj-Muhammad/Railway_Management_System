@@ -15,6 +15,22 @@ railway-management-system/
 └── README.md
 
 
+Install dependencies for each service
+
+Go into each microservice folder and run:
+
+bash
+Copy
+Edit
+cd auth-service
+npm install
+cd ../user-service
+npm install
+cd ../train-service
+npm install
+cd ../booking-service
+npm install
+💡 This installs all required Node.js packages for each service.
 ---
 
 ## ⚙️ Technologies Used
